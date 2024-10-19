@@ -4,6 +4,20 @@
   border: 0;
 }
 
+@media (max-width: 500px) {
+  body {
+    font-size: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .imuge {
+    width: 10px;
+    height: 5px;
+    border-radius: 13px;
+    box-shadow: 5px 5px 3px black;
+  }
+}
+
 a {
   text-decoration: none;
   color: #8d99ae;
