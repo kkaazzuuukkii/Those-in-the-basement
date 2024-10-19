@@ -90,9 +90,31 @@ const singles = [
   },
 ];
 
-for (let i = 0; i < singles.length; i++) {
-  const img1 = document.createElement("img");
-  images.appendChild(img1);
-  img1.src = singles[i].image;
-  img1.classList.add("imuge");
+function createImageElement(src) {
+  const img = document.createElement("img");
+  img.src = src;
+  img.classList.add("imuge");
+
+  img.addEventListener("click", () => {
+    showFullscreenImage(src);
+  });
+
+  images.appendChild(img);
 }
+
+function showFullscreenImage(src) {
+  const fullscreenDiv = document.createElement("div");
+  fullscreenDiv.classList.add("fullscreen");
+
+  const fullscreenImg = document.createElement("img");
+  fullscreenImg.src = src;
+
+  fullscreenDiv.addEventListener("click", () => {
+    document.body.removeChild(fullscreenDiv);
+  });
+
+  fullscreenDiv.appendChild(fullscreenImg);
+  document.body.appendChild(fullscreenDiv);
+}
+
+singles.forEach((item) => createImageElement(item.image));
