@@ -2,28 +2,28 @@ const images = document.querySelector(".images");
 
 const general = [
   {
-    image: "/images/General/1.jpg",
+    image: "images/General/1.jpg",
   },
   {
-    image: "/images/General/2.jpg",
+    image: "images/General/2.jpg",
   },
   {
-    image: "/images/General/3.jpg",
+    image: "images/General/3.jpg",
   },
   {
-    image: "/images/General/4.jpg",
+    image: "images/General/4.jpg",
   },
   {
-    image: "/images/General/5.jpg",
+    image: "images/General/5.jpg",
   },
   {
-    image: "/images/General/6.jpg",
+    image: "images/General/6.jpg",
   },
   {
-    image: "/images/General/7.jpg",
+    image: "images/General/7.jpg",
   },
   {
-    image: "/images/General/8.jpg",
+    image: "images/General/8.jpg",
   },
 ];
 
