@@ -97,6 +97,7 @@ button:focus-visible {
   flex-wrap: wrap;
   margin-inline: 15px;
   justify-content: center;
+  margin-bottom: 20px;
 }
 .imuge {
   width: 250px;
