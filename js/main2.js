@@ -133,6 +133,18 @@ const singles = [
   {
     image: "images/Singles/46.jpg",
   },
+  {
+    image: "images/Singles/47.jpg",
+  },
+  {
+    image: "images/Singles/48.jpg",
+  },
+  {
+    image: "images/Singles/49.jpg",
+  },
+  {
+    image: "images/Singles/50.jpg",
+  },
 ];
 
 function createImageElement(src) {
