@@ -25,6 +25,18 @@ const general = [
   {
     image: "images/General/8.jpg",
   },
+  {
+    image: "images/General/9.jpg",
+  },
+  {
+    image: "images/General/10.jpg",
+  },
+  {
+    image: "images/General/11.jpg",
+  },
+  {
+    image: "images/General/12.jpg",
+  },
 ];
 const singles = [
   {
@@ -170,6 +182,45 @@ const singles = [
   },
   {
     image: "images/Singles/50.jpg",
+  },
+  {
+    image: "images/Singles/51.jpg",
+  },
+  {
+    image: "images/Singles/52.jpg",
+  },
+  {
+    image: "images/Singles/53.jpg",
+  },
+  {
+    image: "images/Singles/54.jpg",
+  },
+  {
+    image: "images/Singles/55.jpg",
+  },
+  {
+    image: "images/Singles/56.jpg",
+  },
+  {
+    image: "images/Singles/57.jpg",
+  },
+  {
+    image: "images/Singles/58.jpg",
+  },
+  {
+    image: "images/Singles/59.jpg",
+  },
+  {
+    image: "images/Singles/60.jpg",
+  },
+  {
+    image: "images/Singles/61.jpg",
+  },
+  {
+    image: "images/Singles/62.jpg",
+  },
+  {
+    image: "images/Singles/63.jpg",
   },
 ];
 

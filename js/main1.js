@@ -25,6 +25,18 @@ const general = [
   {
     image: "images/General/8.jpg",
   },
+  {
+    image: "images/General/9.jpg",
+  },
+  {
+    image: "images/General/10.jpg",
+  },
+  {
+    image: "images/General/11.jpg",
+  },
+  {
+    image: "images/General/12.jpg",
+  },
 ];
 
 function createImageElement(src) {
